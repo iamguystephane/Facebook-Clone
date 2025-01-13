@@ -3,6 +3,7 @@ import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect, useState } from "react";
 import { ThemeProvider } from "@/components/ThemedContext";
+import '@/global.css'
 import { Appearance } from "react-native";
 import { Colors } from "@/constants/Colors";
 import {

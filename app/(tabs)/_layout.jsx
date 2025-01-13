@@ -27,7 +27,7 @@ const TabLayout = () => {
         headerTitleStyle: {
           color: theme.text,
           fontWeight: "bold",
-        },
+        },    
       }}
     >
       <Tabs.Screen
@@ -39,7 +39,7 @@ const TabLayout = () => {
             <Ionicons
               name={focused ? "home" : "home-outline"}
               color={color}
-              size={25}
+              size={30}
             />
           ),
         }}
@@ -60,7 +60,7 @@ const TabLayout = () => {
           ),
           headerRight: () => (
             <View style={{ marginRight: 10 }}>
-              <Ionicons name="search-outline" size={25} color={theme.text}/>
+              <Ionicons name="search-outline" size={30} color={theme.text} />
             </View>
           ),
           headerShown: true,
@@ -68,7 +68,7 @@ const TabLayout = () => {
             <Ionicons
               name={focused ? "notifications" : "notifications-outline"}
               color={color}
-              size={25}
+              size={30}
             />
           ),
         }}
@@ -82,7 +82,7 @@ const TabLayout = () => {
             <Ionicons
               name={focused ? "people" : "people-outline"}
               color={color}
-              size={25}
+              size={30}
             />
           ),
         }}
@@ -96,7 +96,7 @@ const TabLayout = () => {
             <MaterialCommunityIcons
               name={focused ? "storefront" : "storefront-outline"}
               color={color}
-              size={25}
+              size={30}
             />
           ),
         }}
@@ -110,7 +110,7 @@ const TabLayout = () => {
             <Ionicons
               name={focused ? "play" : "play-outline"}
               color={color}
-              size={25}
+              size={30}
             />
           ),
         }}
